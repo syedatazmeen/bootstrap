@@ -1,0 +1,88 @@
+.main {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px 0;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.card {
+    transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-2%);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+
+body{
+margin:0;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+/* Top social bar */
+
+.footer-top{
+background:#6f42c1;
+color:white;
+padding:12px 0;
+}
+
+.social-flex{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.social-icons a{
+color:white;
+margin-left:15px;
+font-size:18px;
+}
+
+
+/* Main Footer */
+
+.footer-main{
+background:#1f2a37;
+color:#ccc;
+padding:50px 0;
+}
+
+.footer-main h6{
+color:white;
+margin-bottom:20px;
+font-weight:bold;
+}
+
+.footer-main a{
+text-decoration:none;
+color:#ccc;
+}
+
+.footer-main a:hover{
+color:white;
+}
+
+.footer-main p{
+margin-bottom:10px;
+}
+
+
+/* Contact icons */
+
+.footer-main i{
+margin-right:10px;
+}
+
+
+/* Bottom copyright */
+
+.footer-bottom{
+background:#16202a;
+color:#bbb;
+text-align:center;
+padding:15px 0;
+}
